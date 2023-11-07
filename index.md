@@ -1,4 +1,4 @@
-# Environment Setup
+# You can change this
 
 ## 1. Install Meteor
 ```bash
