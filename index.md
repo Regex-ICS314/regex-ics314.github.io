@@ -48,6 +48,7 @@ The AskUs chatbot is deployed on Digital Ocean. Access the live application [her
 ###  **Milestone 1**: 
 - ![Milestone 1 Screenshot](docs/milestone1.png) 
 
+###  **Milestone 2**:
 ###  **Milestone 3**:
 
 
