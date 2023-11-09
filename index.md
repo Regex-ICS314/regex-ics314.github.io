@@ -1,6 +1,6 @@
 # UH ITS Ask Us AI Chatbot
 
-![UH ITS Logo](path-to-your-logo.png)
+<img src="docs/logo.png" alt="UH ITS Logo" width="500"/>
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -24,8 +24,18 @@ Leveraging the OpenAI API, our chatbot is trained to interpret and extract perti
 - **Admin Page**: Allows administrators to manage the article database and view analytics on chatbot performance.
 
 ## User Interface
-- `Landing.png` (Thanh, please provide a screenshot of the Landing Page)
-- `Chatbot.png` (Thanh, please provide a screenshot of the Chatbot Interface)
+
+### Landing Page
+<img src="docs/landing.png" alt="UH ITS Logo" width="800"/>
+
+### Chatbot
+<p>
+<img src="docs/chatbot.png" alt="UH ITS Logo" width="800"/>
+</p>
+<p>
+<img src="docs/chatbot3.png" alt="UH ITS Logo" width="800"/>
+</p>
+
 
 ## Use Cases
 - **User**: Interact with the AI chatbot via an input bar, receive answers along with relevant article links, and provide feedback on the chatbot's performance.
@@ -35,9 +45,12 @@ Leveraging the OpenAI API, our chatbot is trained to interpret and extract perti
 The AskUs chatbot is deployed on Digital Ocean. Access the live application [here](#).
 
 ## Development Milestones
-- **Milestone 1**: ![Milestone 1 Screenshot](path-to-milestone-1.png) (Thanh, please add this screenshot)
-- **Milestone 2**: ![Milestone 2 Screenshot](path-to-milestone-2.png) (Thanh, please add this screenshot)
-- **Milestone 3**: ![Milestone 3 Screenshot](path-to-milestone-3.png) (Thanh, please add this screenshot)
+###  **Milestone 1**: 
+- ![Milestone 1 Screenshot](docs/milestone1.png) (Thanh, please add this screenshot)
+###  **Milestone 2**:
+
+###  **Milestone 3**:
+
 
 ## Team Members
 - Devin I.
