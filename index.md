@@ -42,4 +42,4 @@ Screen shot of mile stone 3
 - Thanh L.
 
 ## Contract
-https://docs.google.com/document/d/1Tsaz6w-svai7B1M3a89E4jiB4L6JRUC6Z5HFz9JLC4Q/edit#heading=h.a44ivcpew50q
+https://docs.google.com/document/d/1Tsaz6w-svai7B1M3a89E4jiB4L6JRUC6Z5HFz9JLC4Q/edit?usp=sharing
