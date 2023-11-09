@@ -1,5 +1,6 @@
 # Title of our project
-//image of our landing 
+//image of our logo 
+// thanh get picture of logo
 
 ## Table of Contents
 
@@ -10,10 +11,12 @@ Our team will develop an AI chatbot that will serve as a virtual assistant for u
 We will use the OpenAI API to train our chatbot to answer questions based on the articles in the ITS Ask Us database. The chatbot will be able to read through the articles and extract relevant information to answer user queries. The chatbot will be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles.
 
 ## Features
+// thanh explain chatbot
+// someone explain admin page
 
 ## Pages
-Landing.png
-Chatbot.png
+Landing.png // Thanh Need to get this
+Chatbot.png // Thanh Need to get this
 
 ## Use Cases
 User: Upon navigating to the “Ask Us” page, users are met with a few options. The main component of the page is an input bar that allows you to ask a question to the AI chatbot. When you enter the question, the AI will respond to your question and link you to relevant articles. After asking a question, you can give feedback on the performance of the bot. There will also be an account system, which allows users to create or log into an account. Users who are logged in will have additional access to their past session’s queries in the chatbot function described above. Additional features to help users navigate to helpful articles may be added later.
