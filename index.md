@@ -1,36 +1,24 @@
-# You can change this
+# Title of our project
+//image of our landing 
 
-## 1. Install Meteor
-```bash
-npm install openai
-place holder for now
-```
+## What the project is about
+Our team will develop an AI chatbot that will serve as a virtual assistant for users who visit the UH ITS Ask Us page. The chatbot will be designed to read through the database of articles to extract relevant details to answer user queries. This improvement will make the ITS Ask Us page more user friendly because it can eliminate the option for users to manually search and read through multiple articles.
 
-## 2. Meteor Application Template React
-For details, please see http://ics-software-engineering.github.io/meteor-application-template-react/
+## How will we solve the problem
+We will use the OpenAI API to train our chatbot to answer questions based on the articles in the ITS Ask Us database. The chatbot will be able to read through the articles and extract relevant information to answer user queries. The chatbot will be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles.
 
-```bash
-$ cd app/
-$ meteor npm install
-```
-Make sure meteor starts up without errors.
-```bash
-$ meteor npm run start
-```
+## Milestones 1
+Screen shot of mile stone 1
 
-## OpenAI API Key Environment Set Up
-```bash
-powershell
-$env:OPENAI_API_KEY="<your key here>"
-Write-Output $env:OPENAI_API_KEY
+## Milestones 2
+Screen shot of mile stone 2
+## Milestones 3
+Screen shot of mile stone 3
 
-linux
-echo "export OPENAI_API_KEY='<your key here>'" >> ~/.zshrc
-source ~/.zshrc
-echo $OPENAI_API_KEY
+## Team Members
+- Devin I. 
+- Jerreth D. 
+- Joseph A. 
+- Thanh L.
 
-window
-set OPENAI_API_KEY "<your key here>"
-echo %OPENAI_API_KEY%
-```
-https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety
+## Contract
