@@ -15,6 +15,7 @@
 
 ## Project Overview
 The UH ITS Ask Us AI chatbot aims to transform the user experience on the Ask Us page by providing a virtual assistant capable of intelligently navigating a database of articles to answer user inquiries. This enhancement streamlines the information retrieval process, offering a more efficient and user-friendly interaction.
+<img src="docs/current_Askus.png" alt="UH ITS Logo" width="1200"/>
 
 ## Solution Approach
 Leveraging the OpenAI API, our chatbot is trained to interpret and extract pertinent information from the ITS Ask Us database articles. By synthesizing content from these articles, the chatbot can address queries with information that may not be explicitly detailed within the articles themselves, showcasing a nuanced understanding and application of the knowledge base.
