@@ -24,7 +24,7 @@ User: Upon navigating to the “Ask Us” page, users are met with a few options
 Admin: In addition to all functionality included as a standard user, admins are able to access an admin page, which contains information such as data analytics regarding chatbot performance. This page also includes the ability to create, read, update, and delete from the article database.
 
 ## Deployment
-AskUs is deployed on Digital Ocean. The link to the website is [here](https://askus-uh.herokuapp.com/).
+AskUs is deployed on Digital Ocean. The link to the website is [here](#).
 
 ## Milestones 1
 Screen shot of mile stone 1
