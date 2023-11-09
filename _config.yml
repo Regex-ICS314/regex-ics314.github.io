@@ -2,7 +2,7 @@ title: Regex Ask Us
 description:
 google_analytics:
 show_downloads: true
-theme: minima
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
