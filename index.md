@@ -26,14 +26,14 @@ Leveraging the OpenAI API, our chatbot is trained to interpret and extract perti
 ## User Interface
 
 ### Landing Page
-<img src="docs/landing.png" alt="UH ITS Logo" width="800"/>
+<img src="docs/landing.png" alt="UH ITS Logo" width="1200"/>
 
 ### Chatbot
 <p>
-<img src="docs/chatbot.png" alt="UH ITS Logo" width="800"/>
+<img src="docs/chatbot.png" alt="UH ITS Logo" width="1200"/>
 </p>
 <p>
-<img src="docs/chatbot3.png" alt="UH ITS Logo" width="800"/>
+<img src="docs/chatbot3.png" alt="UH ITS Logo" width="1200"/>
 </p>
 
 
