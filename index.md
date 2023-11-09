@@ -1,45 +1,49 @@
-# Title of our project
-//image of our logo 
-// thanh get picture of logo
+# UH ITS Ask Us AI Chatbot
+
+![UH ITS Logo](path-to-your-logo.png)
 
 ## Table of Contents
+- [Project Overview](#project-overview)
+- [Solution Approach](#solution-approach)
+- [Features](#features)
+- [User Interface](#user-interface)
+- [Use Cases](#use-cases)
+- [Deployment](#deployment)
+- [Development Milestones](#development-milestones)
+- [Team Members](#team-members)
+- [Project Contract](#project-contract)
 
-## What the project is about
-Our team will develop an AI chatbot that will serve as a virtual assistant for users who visit the UH ITS Ask Us page. The chatbot will be designed to read through the database of articles to extract relevant details to answer user queries. This improvement will make the ITS Ask Us page more user friendly because it can eliminate the option for users to manually search and read through multiple articles.
+## Project Overview
+The UH ITS Ask Us AI chatbot aims to transform the user experience on the Ask Us page by providing a virtual assistant capable of intelligently navigating a database of articles to answer user inquiries. This enhancement streamlines the information retrieval process, offering a more efficient and user-friendly interaction.
 
-## How will we solve the problem
-We will use the OpenAI API to train our chatbot to answer questions based on the articles in the ITS Ask Us database. The chatbot will be able to read through the articles and extract relevant information to answer user queries. The chatbot will be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles. The chatbot will also be able to answer questions that are not explicitly stated in the articles by using the information it has learned from the articles.
+## Solution Approach
+Leveraging the OpenAI API, our chatbot is trained to interpret and extract pertinent information from the ITS Ask Us database articles. By synthesizing content from these articles, the chatbot can address queries with information that may not be explicitly detailed within the articles themselves, showcasing a nuanced understanding and application of the knowledge base.
 
 ## Features
-// thanh explain chatbot
-// someone explain admin page
+- **AI Chatbot**: Designed to comprehend and utilize database articles to respond to user queries.
+- **Admin Page**: Allows administrators to manage the article database and view analytics on chatbot performance.
 
-## Pages
-Landing.png // Thanh Need to get this
-Chatbot.png // Thanh Need to get this
+## User Interface
+- `Landing.png` (Thanh, please provide a screenshot of the Landing Page)
+- `Chatbot.png` (Thanh, please provide a screenshot of the Chatbot Interface)
 
 ## Use Cases
-User: Upon navigating to the “Ask Us” page, users are met with a few options. The main component of the page is an input bar that allows you to ask a question to the AI chatbot. When you enter the question, the AI will respond to your question and link you to relevant articles. After asking a question, you can give feedback on the performance of the bot. There will also be an account system, which allows users to create or log into an account. Users who are logged in will have additional access to their past session’s queries in the chatbot function described above. Additional features to help users navigate to helpful articles may be added later.
-
-Admin: In addition to all functionality included as a standard user, admins are able to access an admin page, which contains information such as data analytics regarding chatbot performance. This page also includes the ability to create, read, update, and delete from the article database.
+- **User**: Interact with the AI chatbot via an input bar, receive answers along with relevant article links, and provide feedback on the chatbot's performance.
+- **Admin**: Access additional admin functionalities such as chatbot data analytics and article database management.
 
 ## Deployment
-AskUs is deployed on Digital Ocean. The link to the website is [here](#).
+The AskUs chatbot is deployed on Digital Ocean. Access the live application [here](#).
 
-## Milestones 1
-Screen shot of mile stone 1
-// Thanh Need to get this
-
-## Milestones 2
-Screen shot of mile stone 2
-## Milestones 3
-Screen shot of mile stone 3
+## Development Milestones
+- **Milestone 1**: ![Milestone 1 Screenshot](path-to-milestone-1.png) (Thanh, please add this screenshot)
+- **Milestone 2**: ![Milestone 2 Screenshot](path-to-milestone-2.png) (Thanh, please add this screenshot)
+- **Milestone 3**: ![Milestone 3 Screenshot](path-to-milestone-3.png) (Thanh, please add this screenshot)
 
 ## Team Members
-- Devin I. 
-- Jerreth D. 
-- Joseph A. 
+- Devin I.
+- Jerreth D.
+- Joseph A.
 - Thanh L.
 
-## Contract
-https://docs.google.com/document/d/1Tsaz6w-svai7B1M3a89E4jiB4L6JRUC6Z5HFz9JLC4Q/edit?usp=sharing
+## Project Contract
+[View our project contract](https://docs.google.com/document/d/1Tsaz6w-svai7B1M3a89E4jiB4L6JRUC6Z5HFz9JLC4Q/edit?usp=sharing)
