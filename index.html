@@ -20,7 +20,8 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-    <script type="text/x-mathjax-config">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
 	    tex2jax: {
 	        inlineMath: [['$','$'], ['\\(','\\)']],
@@ -146,7 +147,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-center">
-        <h2 class="title is-3">Features</h2>
+        <h2 class="title is-3">User Guide</h2>
           <div class="content has-text-justified">
               <p>
                 <strong>Landing Page:</strong>
@@ -155,12 +156,43 @@
                 Chatbot Integration: Additionally, the landing page includes integration with your chatbot. Users can initiate conversations with the chatbot directly from this page, allowing them to ask questions and receive instant assistance.
               <p>
                 <strong>Chatbot Page:</strong>
-                Designed to comprehend and utilize database articles to respond to user queries.
+            Interactive Chat Interface: The Chatbot Page serves as the main interaction hub between users and the chatbot. It features an interactive chat interface where users can type their questions and receive responses from the chatbot.
+            Language Translation: If your chatbot offers language translation, you can highlight this feature on the Chatbot Page. Users can inquire about translations of articles or ask questions in their preferred language, and the chatbot will provide responses accordingly.
+            User-Friendly Experience: Ensure that the chatbot page provides a user-friendly and intuitive chat interface. Users should feel comfortable and encouraged to ask questions, knowing that they will receive helpful responses.
+            Helpful Prompts: Consider adding helpful prompts or suggestions to guide users in initiating conversations with the chatbot. These prompts can be related to common inquiries or actions users might want to take.
               </p>
               <p>
-                <strong>Admin Page:</strong>
-                Allows administrators to manage the article database and view analytics on chatbot performance.
+                <strong>Info Sec Page:</strong>
+                Resource Hub: The Infosec Page serves as a central resource hub where users can access essential information related to information security (ID resource). This section may include documents, guidelines, or links to resources that help users understand and implement security best practices.
+                System Operational Status: Users can check the current operational status of systems or services. This information can be critical for users who rely on these systems for their work or tasks.
+                Security Alerts: The Infosec Page provides a section dedicated to security alerts. Users can stay informed about any recent security vulnerabilities, threats, or incidents. It's essential for users to have easy access to this information to take necessary precautions.
+                Scheduled Maintenance: This section informs users about upcoming scheduled maintenance activities. Users can plan their activities accordingly and avoid potential disruptions during maintenance periods.
+                General Notices: The Infosec Page can also feature general notices or announcements related to information security and system updates. These notices may include important announcements, policy changes, or other relevant information.
               </p>
+            <p>
+              <strong>History Page:</strong>
+              List of Previous Chats: The primary function of this page is to display a chronological list of the user's previous chat sessions. Each session may be represented by a timestamp or date, making it easy for users to identify specific interactions.
+              Message Transcripts: Users can click on individual chat sessions to view the message transcripts from those conversations. This allows users to see the questions they asked and the responses provided by the chatbot. Message transcripts provide a detailed record of past interactions.
+            </p>
+            <p>
+              <strong>Admin Page:</strong>
+              List of Articles: The page provides administrators with a list of articles available in the system's database. This list allows administrators to view, edit, or manage articles as needed. It serves as a central repository of knowledge.
+              Frequently Asked Questions (FAQs): Administrators can access and manage the list of frequently asked questions. This section allows them to add, edit, or remove FAQs as necessary, ensuring that the chatbot has up-to-date responses to common queries.
+              Bar Graph for Chatbot Metrics:
+              Weekly Frequency: A bar graph displays the weekly frequency of interactions with the chatbot. This graph helps administrators track trends in chatbot usage over time, identifying periods of increased or decreased activity.
+              Average Response Time: Another bar graph shows the average response time of the chatbot for each week. This metric helps administrators assess the chatbot's performance in terms of response speed and efficiency.
+              Startup Requirements Status: This section provides an overview of the system's startup requirements. Administrators can monitor the status of each requirement, ensuring that all necessary components are functioning correctly. It may include checks for server status, database connectivity, and other essential system components.
+              Management Tools: Administrators have access to various management tools that allow them to perform tasks such as adding new articles, updating FAQs, and reviewing chatbot performance metrics.
+            </p>
+
+            <!-- Add more page here
+            <p>
+              <strong>Admin Page:</strong>
+              Allows administrators to manage the article database and view analytics on chatbot performance.
+            </p>
+
+            -->
+
           </div>
         </div>
       </div>
@@ -239,26 +271,6 @@
     </div>
   </section>
 
-  <!-- Use Cases -->
-  <section class="section hero is-white" id="use-cases">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-center">
-          <h2 class="title is-3">Use Cases</h2>
-          <div class="content has-text-justified">
-            <p>
-              <strong>User:</strong> Interact with the AI chatbot via an input bar, receive answers along with relevant article links, and provide feedback on the chatbot's performance.
-            </p>
-            <p>
-              <strong>User:</strong> Access additional admin functionalities such as chatbot data analytics and article database management.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End use cases -->
-
   <!-- Community Feedback -->
   <section class="section hero is-light" id="community">
     <div class="container is-max-desktop">
@@ -287,6 +299,64 @@
     </div>
   </section>
 
+  <!-- Use Cases -->
+  <section class="section hero is-white" id="use-cases">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-center">
+          <h2 class="title is-3">Developer Guide</h2>
+          <div class="content has-text-justified">
+            <h3>Built With</h3>
+            <ul>
+              <li><a href="https://www.meteor.com/"><img src="https://img.shields.io/badge/Meteor-DF4A32?style=for-the-badge&logo=meteor&logoColor=white" alt="Meteor"></a></li>
+              <li><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"> <a href="https://reactjs.org/"></a></li>
+              <li><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"> <a href="https://getbootstrap.com"></a></li>
+            </ul>
+            <h1>Getting Started</h1>
+
+            <h3>Prerequisites</h3>
+            <p>Install Meteor according to <a href="https://docs.meteor.com/install.html">https://docs.meteor.com/install.html</a></p>
+
+            <h3>Installation</h3>
+            <ol>
+              <li>Get your OPENAI API Key at <a href="https://platform.openai.com/">https://platform.openai.com/</a></li>
+              <li>Clone the repo</li>
+              <pre><code>git clone https://github.com/HACC2023/Regex.git</code></pre>
+              <li>Cd into the app directory</li>
+              <pre><code>cd app</code></pre>
+              <li>Meteor install</li>
+              <pre><code>meteor npm install</code></pre>
+              <li>Enter rename <code>sample.env</code> to <code>.env</code> and enter your API in <code>.env</code></li>
+              <pre><code>OPENAI_API_KEY=&lt;PUT_YOUR_KEY_HERE&gt;</code></pre>
+              <li>Make sure meteor starts up without errors.</li>
+              <pre><code>$ meteor npm run start</code></pre>
+            </ol>
+
+            <h3>OpenAI API Key Environment Set Up</h3>
+            <p>If you are using a bash shell, you can set your API key as an environment variable by running the following command in your terminal:</p>
+            <pre><code>powershell
+                    $env:OPENAI_API_KEY="&lt;your key here&gt;"
+                    Write-Output $env:OPENAI_API_KEY
+
+                    linux
+                    echo "export OPENAI_API_KEY='&lt;your key here&gt;'" &gt;&gt; ~/.zshrc
+                    source ~/.zshrc
+                    echo $OPENAI_API_KEY
+
+                    window
+                    set OPENAI_API_KEY "&lt;your key here&gt;"
+                    echo %OPENAI_API_KEY%
+            </code></pre>
+            <p><a href="https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety">https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety</a></p>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End use cases -->
+
   <!-- Development Milestone -->
   <section class="section hero is-white" id="development-milestones">
     <div class="container is-max-desktop">
@@ -295,9 +365,13 @@
           <h2 class="title is-3">Development Milestones</h2>
           <div class="content has-text-justified">
             <h3 class="title is-4"><a href="https://github.com/orgs/Regex-ICS314/projects/1/views/1">Milestone 1</a></h3>
+            <p>
+              In Milestone 1, our project primarily focused on enhancing the chatbot's functionality. We diligently worked on developing the chatbot's capability to effectively understand and process user queries, implementing advanced natural language processing (NLP) algorithms to refine its responses, and seamlessly integrating it with external APIs and databases to ensure the delivery of accurate information. Simultaneously, we prioritized the robustness of the chatbot by conducting extensive testing and debugging to identify and rectify potential issues. We fortified the chatbot with robust error handling and fallback mechanisms to gracefully handle queries it couldn't address and ensured its adaptability to a diverse array of user inputs and scenarios. In parallel, we created mock-ups for the landing page and admin page, visualizing the user interface design concepts. We also engaged in usability testing, actively seeking user feedback on the chatbot's functionality and the initial page designs, laying a strong foundation for our project's future development phases.
+            </p>
             <h3 class="title is-4"><a href="https://github.com/orgs/Regex-ICS314/projects/2">Milestone 2</a></h3>
+            <p>Milestone 2 represents a pivotal stage in our project's development, where we build upon the foundational work completed in Milestone 1. By expanding functionality, improving user accessibility, and introducing new features, we aim to deliver a more robust and user-friendly experience while maintaining a strong focus on performance and user satisfaction.</p>
             <h3 class="title is-4"><a href="https://github.com/orgs/Regex-ICS314/projects/3">Milestone 3</a></h3>
-
+            <P>Currently under review.</P>
           </div>
         </div>
       </div>
@@ -366,6 +440,17 @@ End paper poster -->
     </div>
   </div>
 </footer>
+  </div>
+  <script>
+    // Get the markdown content from the <div>
+    var markdownContent = document.getElementById("markdown-content").textContent;
+
+    // Convert markdown to HTML using marked.js
+    var htmlContent = marked(markdownContent);
+
+    // Replace the content of the <div> with the HTML
+    document.getElementById("markdown-content").innerHTML = htmlContent;
+  </script>
 
 <!-- Statcounter tracking code -->
   
